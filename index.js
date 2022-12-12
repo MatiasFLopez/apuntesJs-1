@@ -59,3 +59,59 @@ if (miNumero2 > 0){
     console.log("Mi numero es negativo")
 }
 
+//cierre de condicionales
+
+// BUCLES 
+
+/*let contador = 0;
+while(contador < 10 ){
+    console.log(contador);
+    contador = contador + 1;
+}*/
+
+for (let i = 0; i <= 14; i++) {
+    console.log(i);
+}
+
+// Cierre BUCLES
+
+// FUNCIONES (no tienen un orden)
+
+function saludar (nombre, edad){
+    console.log("Hola. Mi nombre es: "+ nombre);
+    console.log("Hola. Mi edad es: "+ edad);
+}
+
+function multiplicar (num1, num2){
+    let resultado = num1 * num2;
+    return resultado;
+}
+
+let recibidor = multiplicar (2, 5)
+console.log (recibidor);
+
+// ARREGLOS O ARRAYS
+let miArreglo = ["David", "Fernando", "Kevin", "Carla"]
+for(let i = 0; i < 4 ; i++){
+    console.log("Accediendo al indice: " + i);
+    let mostrar = miArreglo[i];
+    console.log(mostrar);
+}
+
+// OBJETOS
+let persona = {
+    nombre: "Julian",
+    edad: "21",
+    masculino: "true"
+}
+
+persona.comidaFavorita = "Hamburguesa"
+
+let persona2 = {
+    nombre: "Juliana",
+    edad: "23",
+    masculino: "false"
+}
+console.log (persona);
+console.log (persona2);
+
