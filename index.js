@@ -114,4 +114,3 @@ let persona2 = {
 }
 console.log (persona);
 console.log (persona2);
-
